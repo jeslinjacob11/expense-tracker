@@ -17,7 +17,7 @@ A modern Expense Tracker REST API built with **FastAPI** featuring an interactiv
 ### 1. Clone the repository
 
 ```bash
-git clone <your-github-repository-url>
+git clone https://github.com/jeslinjacob11/expense-tracker.git
 cd expense-tracker
 ```
 
