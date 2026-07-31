@@ -40,14 +40,12 @@ Any AI-generated suggestions that were used were first tested and, where necessa
 
 Yes.
 
-I chose not to implement several suggestions because they were outside the scope of the assignment, including:
-
+I chose not to implement several suggestions including:
 - Database integration (SQLite/PostgreSQL)
 - User authentication
 - React frontend
 - Docker deployment
 - Cloud deployment
-- Additional advanced analytics features
 
 The assignment required a lightweight REST API using local JSON storage, so I kept the implementation aligned with those requirements.
 
@@ -66,4 +64,4 @@ The majority of the project development was completed by me, including:
 - Organizing the project files.
 - Preparing the final submission.
 
-AI was primarily used as a development assistant for troubleshooting, explaining concepts, and resolving errors rather than designing the project itself.
+AI was primarily used as a development assistant for troubleshooting, explaining concepts, and resolving errors .

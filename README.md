@@ -230,7 +230,7 @@ Click the delete button beside any expense.
 # Project Structure
 
 ```
-expense-tracker-api/
+expense-tracker/
 │
 ├── README.md
 ├── AI_NOTES.md
@@ -238,12 +238,12 @@ expense-tracker-api/
 ├── .gitignore
 │
 ├── src/
+│   ├── __init__.py
 │   ├── main.py
 │   ├── models.py
 │   ├── routes.py
 │   ├── services.py
-│   ├── storage.py
-│   └── utils.py
+│   └── storage.py
 │
 ├── templates/
 │   └── index.html
@@ -257,7 +257,15 @@ expense-tracker-api/
 ├── data/
 │   └── expenses.json
 │
+├── screenshots/
+│   ├── add-expense.png
+│   ├── dashboard.png
+│   ├── filter-expense.png
+│   ├── pie-chart.png
+│   └── tests.png
+│
 └── tests/
+    ├── __init__.py
     └── test_api.py
 ```
 
