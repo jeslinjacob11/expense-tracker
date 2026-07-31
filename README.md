@@ -35,10 +35,16 @@ Linux / macOS
 source .venv/bin/activate
 ```
 
-Windows
+Windows (PowerShell)
 
-```bash
-.venv\Scripts\activate
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+Windows (Command Prompt)
+
+```cmd
+.venv\Scripts\activate.bat
 ```
 
 ### 4. Install dependencies
@@ -310,7 +316,7 @@ This improves maintainability and readability.
 Run the test suite using:
 
 ```bash
-pytest
+pytest -v
 ```
 
 The API was also manually tested using Swagger UI to verify:
@@ -325,7 +331,7 @@ The API was also manually tested using Swagger UI to verify:
 
 # Future Improvements
 
-If given more time, the following enhancements would be added:
+ The following enhancements will be added in future :
 
 - SQLite/PostgreSQL integration
 - User authentication
@@ -338,17 +344,6 @@ If given more time, the following enhancements would be added:
 - CI/CD pipeline
 - Unit and integration test coverage
 - Cloud deployment (Render/AWS)
-
----
-
-# Screenshots
-
-Include screenshots before submission.
-
-- Dashboard
-- Pie Chart
-- Expense Table
-- Swagger Documentation
 
 ---
 
