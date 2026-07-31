@@ -1,23 +1,2 @@
 [
-    {
-        "id": 2,
-        "title": "schol fees",
-        "amount": 565.0,
-        "category": "Education",
-        "date": "2026-07-11"
-    },
-    {
-        "id": 3,
-        "title": "birthday",
-        "amount": 789.0,
-        "category": "Entertainment",
-        "date": "2026-07-30"
-    },
-    {
-        "id": 4,
-        "title": "Pizza",
-        "amount": 450.0,
-        "category": "Food",
-        "date": "2026-08-01"
-    }
 ]

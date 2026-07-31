@@ -63,7 +63,7 @@ uvicorn src.main:app --reload
 
 Dashboard
 
-```
+``` 
 http://127.0.0.1:8000/
 ```
 
@@ -278,7 +278,7 @@ Chosen because of:
 
 ### JSON Storage
 
-A local JSON file was used instead of a database because the assignment explicitly allows local file storage.
+A local JSON file was used instead of a database .
 
 ---
 
@@ -342,9 +342,42 @@ The API was also manually tested using Swagger UI to verify:
 - Dark/Light theme toggle
 - Docker support
 - CI/CD pipeline
-- Unit and integration test coverage
-- Cloud deployment (Render/AWS)
 
+
+# Screenshots
+
+## Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## Add Expense
+
+![Add Expense](screenshots/add-expense.png)
+
+---
+
+## Filter Expenses
+
+![Filter](screenshots/filter-expense.png)
+
+---
+
+## Expense Distribution
+
+![Pie Chart](screenshots/pie-chart.png)
+
+---
+
+
+---
+
+## Automated Tests
+
+All API tests passed successfully.
+
+![Tests](screenshots/tests.png)
 ---
 
 Built using **FastAPI**, **HTML**, **CSS**, and **JavaScript** for a lightweight yet interactive expense tracking application.
