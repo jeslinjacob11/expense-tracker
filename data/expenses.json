@@ -12,5 +12,26 @@
         "amount": 789.0,
         "category": "Entertainment",
         "date": "2026-07-30"
+    },
+    {
+        "id": 4,
+        "title": "Pizza",
+        "amount": 450.0,
+        "category": "Food",
+        "date": "2026-08-01"
+    },
+    {
+        "id": 5,
+        "title": "Pizza",
+        "amount": 450.0,
+        "category": "Food",
+        "date": "2026-08-01"
+    },
+    {
+        "id": 6,
+        "title": "Pizza",
+        "amount": 450.0,
+        "category": "Food",
+        "date": "2026-08-01"
     }
 ]
